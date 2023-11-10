@@ -3,17 +3,18 @@
 }
 .container{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
 }
 .container-one {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%; 
-    max-width: 600px; /* Set a maximum width if desired */
+    max-width: 600px; 
     margin: 0 auto; 
-    background-color: #f0f0f0;
+    
     border-radius: 15px; 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
    ;
 }
   
@@ -28,16 +29,15 @@
     align-items: center;
     width: 80%;
     max-width: 800px;
-    margin: 20px auto; /* Added some margin between containers */
-    background-color: #f0f0f0;
+    margin: 20px auto;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   
   .image-container-2,
   .image-container-3 {
-    flex-basis: 48%; /* Adjusted to allow some space between the images */
-    margin: 5px; /* Added some margin between the images */
+    flex-basis: 48%;
+    margin: 5px;
   }
   
   .image-container-2 img,
@@ -72,7 +72,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Adjusted margin for consistency */
+    margin-top: 20px;
   }
   
   .image-button {
