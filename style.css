@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+.container{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    max-width: 600px; /* Set a maximum width if desired */
+    margin: 0 auto; 
+    background-color: #f0f0f0;
+    border-radius: 15px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+   ;
+}
+  
+  .image-container-1 img {
+    width: 100%;
+    height:300px; 
+    border-radius: 15px; 
+  }
+  .container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto; /* Added some margin between containers */
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-container-2,
+  .image-container-3 {
+    flex-basis: 48%; /* Adjusted to allow some space between the images */
+    margin: 5px; /* Added some margin between the images */
+  }
+  
+  .image-container-2 img,
+  .image-container-3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto; 
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-container-4 {
+    flex-basis: 100%; 
+    margin: 10px 0; 
+  }
+  
+  .image-container-4 img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjusted margin for consistency */
+  }
+  
+  .image-button {
+    background-color: #5fc162; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .image-button:hover {
+    background-color: #45a049; 
+  }
+  
+  
